@@ -46,7 +46,6 @@
     <string name="analytics_host">https://192.168.1.91:8443/dc/</string>
     <string name="mam_host">https://192.168.1.91:8444/mam/</string>
     <string name="mam_push_host_and_port">push.appcan.cn:16001</string>
-	
 
     <!-- platform myspace  use -->
     <string name="platform_myspace_app_center">应用中心</string>
@@ -56,7 +55,5 @@
     <string name="platform_myspace_release_to_refresh">释放刷新推荐列表</string>
     <string name="platform_myspace_loading">加载中...</string>
     <string name="platform_myspace_tap_to_refresh">点击刷新推荐列表</string>
-    
-      <item type="id" name="plugin_uexphotowalltwo_item_event_target"></item>
 
 </resources>

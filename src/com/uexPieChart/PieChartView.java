@@ -375,7 +375,7 @@ public class PieChartView extends View {
 		case MotionEvent.ACTION_MOVE:
 			int tt = getTargetDegree();
 			int index = getEventPart(tt);
-			PieChartActivity.getDataListener.onPieChartMove(PieChartActivity
+			PieChartBaseView.getDataListener.onPieChartMove(PieChartBaseView
 					.getOpid(), 0, pieChartList.get(index).getJsonData());
 			// 这里处理滑动
 			rotate(eventPoint, newAngle);
@@ -386,7 +386,7 @@ public class PieChartView extends View {
 			// onStop();
 			int stopDegree = getTargetDegree();
 			int stopIndex = getEventPart(stopDegree);
-			PieChartActivity.getDataListener.onPieChartStop(PieChartActivity
+			PieChartBaseView.getDataListener.onPieChartStop(PieChartBaseView
 					.getOpid(), 0, pieChartList.get(stopIndex).getJsonData());
 			isDraw = true;
 			break;
