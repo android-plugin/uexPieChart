@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <uexplugins>
     <plugin
-        uexName="uexPieChart" version="3.0.1" build="1">
-        <info>1:去掉插件中的ActivityGroup,配合引擎升级</info>
+        uexName="uexPieChart" version="4.0.0" build="2">
+        <info>2:4.0插件</info>
+        <build>1:去掉插件中的ActivityGroup,配合引擎升级</build>
         <build>0:旋转饼状图功能插件</build>
     </plugin>
 </uexplugins>
